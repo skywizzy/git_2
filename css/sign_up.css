@@ -1,0 +1,565 @@
+/*--------main body---------*/
+html,body{
+    width: 100%;
+    margin: 0;
+    background-color:rgb(36,41,46);
+    font-family:"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
+}
+header{
+    background-color:rgb(36,41,46);
+    height: 9vh;
+    margin:0;
+    width: 100%;
+}
+#container{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 1%;
+    height: 7vh;
+}
+#logo{
+    width: 25px;
+    float: left;
+    margin: 1% 0 0 2%;
+}
+#container ul{
+    width: 50%;
+}
+#container li{
+    color: white;
+    list-style-type: none;
+    float: left;
+    margin: 0% 2%;
+    display: inline-block;
+}
+#container input{
+    padding: 2% 0 2% 2%;
+    background-color: rgba(64,68,72,0.5);
+    border: none;
+    border-radius: 3px;
+    margin: -2% 2% 0 0;
+    color: whitesmoke;
+}
+#search{
+    width: 40%;
+    float:right;
+    color: rgba(255,255,255,0.4);
+}
+#search a{
+    color: white;
+    text-decoration: none;
+}
+label{
+    position: absolute;
+    left:85%;
+    top: 4%;
+    color: white;
+    float: right;
+    display: block;
+    padding: 0 1%;
+    font-size: 25px;
+    margin-top:-2%;
+    cursor: pointer;
+    display: none;
+}
+#toggle{
+    float: right;
+    display: none;
+}
+/*--------first content---------*/
+#first-content{
+    background-image: url(../img/reg_bg.jpg);
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    display: grid;
+    width: 100%;
+}
+#first-inner{
+    width: 70%;
+    margin: 0 auto;
+    align-self: center;
+    display: grid;
+    grid-auto-columns: 55% 40%;
+    justify-content:space-between;
+    height: 50vh;
+}
+#intro-text{
+    grid-column: 1 / span 1;
+    color: rgba(255,255,255,0.5);
+}
+#intro-text h1{
+    font: 450% lighter;
+    font-family:"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
+    color: white;
+    margin-top: 5%;
+}
+#intro-text p{
+    font:150% lighter;
+    font-family: sans-serif;
+    margin-top: -10%;
+    line-height: 1.5;
+    padding-right: 8%;
+}
+#intro-text a{
+    color: white;
+    text-decoration: none;
+}
+#signUP-form{
+    grid-column: 2 / span 1;
+    padding: 7% 5%;
+    height: 50vh;
+    background-color: rgb(250,251,252);
+    font: 90% lighter;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+#signUP-form input{
+    padding: 4% 3%;
+    background-color: rgb(250,251,252);
+    font: 90% lighter;
+    font-family: sans-serif;
+    width: 92%;
+    margin: 2% 0 5% 0;;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+#signUP-form button{
+    padding: 4% 3%;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 99%;
+    border: none;
+    background-color: rgb(45,186,78);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+#signUP-form #txt1{
+    font-size: 88%;
+    color: rgba(0,0,0,0.6);
+    margin:-2% 0 4% 0; 
+}
+#signUP-form #txt2{
+    font-size: 80%;
+    color: rgba(0,0,0,0.6);
+    margin:0 auto;
+    text-align: center;
+    width: 93%;
+}
+#signUP-form a{
+    text-decoration: none;
+    color:rgb(75,145,225);
+}
+#btn-sm{
+    padding: 4% 3%;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 99%;
+    border: none;
+    background-color: rgb(45,186,78);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    display: none;
+}
+/*--------second content A---------*/
+#second-content{
+    background-color: white;
+    height: 130vh;
+}
+hr{
+    color: rgb(225,228,232);
+    opacity: 0.3;
+}
+#second-content #row-1{
+    display: grid;
+    grid-template-columns: 1fr minmax(290px, 300px) 1fr;
+    width: 100%;
+    height: 30vh;
+    margin: 0 auto;
+}
+#img1{
+    float: left;
+    width: 50%;
+    height: 80%;
+}
+#mid-content{
+    
+}
+#second-content h4{
+    align-items: center;
+    font-weight: 500;
+    color: rgba(62,67,71,0.8);
+}
+#second-content p{
+    color: black;
+    font-weight: 400;
+    font-size: 80%;
+    margin: -4% 0 2% 0;
+}
+#second-content a{
+    text-decoration: none;
+    font-size: 80%;
+    color: rgb(41,125,220);
+}
+/*--------second content B---------*/
+#second-content #row-2{
+    height: 30vh;
+    width: 66.5%;
+    margin:  0 auto;
+}
+#row-2 img{
+    width: 100%;
+    margin:  0 auto;
+}
+#second-content #txt1{
+    margin-top: 8%;
+    font-size: 140%;
+    text-align: center;
+    color: rgb(119,119,125);
+}
+#second-content #txt2{
+    font-size: 80%;
+    text-align: center;
+    margin-top: 1%;
+    color: rgb(119,119,125);
+}
+/*--------second content C---------*/
+#second-content #row-3{
+    height: 48vh;
+    margin:  0 auto;
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 900px) 1fr;
+}
+#second-content #row-3 h4{
+    text-align: center;
+    margin-top: 8%;
+}
+#second-content #row-3 #txt1{
+    text-align: center;
+    font-size: 360%;
+    font-weight: lighter;
+    color: black;
+    margin-top: -1%;
+}
+#second-content #row-3 #txt2{
+    text-align: center;
+    font-size: 125%;
+    width: 75%;
+    margin: 0 auto;
+}
+#second-content #row-3 ul{
+    width: 180px;
+    margin: 5% 36%;
+}
+#second-content #row-3 li{
+    list-style: none;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 5% 7% 7% 13%;
+    color: rgb(3,102,221);
+    font-size: 120%;
+    border-radius: 7px;
+    font-weight: 450;
+}
+
+
+/*--------last content---------*/
+#last-content{
+    height: 60vh;
+    background-color: rgb(36,41,46);
+    display: grid;
+    align-items: center;
+}
+#last-text{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 253%;
+    line-height: 1.5;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+#mini-signUP{
+    display: grid;
+    grid-auto-columns: repeat(4,24%);
+    grid-template-rows: 50% 50%;
+    width: 85%;
+    height: 12vh;
+    margin: 0 auto;
+    justify-content: s
+}
+#mini-signUP p{
+    grid-column: 1 / span 4;
+    margin: 0 auto;
+}
+#mini-signUP input{
+    padding: 0% 3%;
+    background-color: rgb(250,251,252);
+    font: 90% lighter;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    width: 85%;
+}
+#mini-signUP button{
+    padding: 1% 2%;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: none;
+    background-color: rgb(45,186,78);
+    color: white;
+    border-radius: 5px;
+}
+#mini-signUP p{
+    font-size: 80%;
+    color: rgba(255,255,255,0.3);
+    align-self: center;
+    margin-top: 2%;
+}
+#mini-signUP a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: white;
+    height: 50vh;
+    display: grid;
+}
+footer article{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 70%;
+    margin: 0 auto;
+    align-self: center;
+}
+#col-a1{
+    text-align: center;
+}
+#col-a1 h2{
+    font-weight: bold;
+    margin: 0;
+    font-size: 140%;
+}
+#col-a1 p{
+    font-size: 80%;
+    margin-top: 2%;
+}
+footer ul{
+    list-style:none;
+    margin: 0;
+    line-height: 2;
+}
+footer a{
+    text-decoration: none;
+    font-size: 90%;
+    color: rgba(36,41,46,0.8);
+}
+footer h4{
+    margin: 0%;
+    font-size: 110%;
+}
+
+@media screen and (max-width:1392px){
+    #search{
+    width: 40%;
+}
+    #logo{
+    margin: 1% 0 0 2%;
+}
+}
+@media screen and (max-width:1274px){
+    #intro-text h1{
+    font-size: 400%;
+    }
+    #intro-text p{
+    font-size:130%;
+    }
+    #logo{
+    margin: 1.5% 0 0 2%;
+}
+   #second-content #row-1{
+    width: 50%;
+} 
+}
+@media screen and (max-width:1116px){
+    #intro-text h1{
+    font-size: 380%;
+}
+#container{
+    width: 90%;
+}
+#first-inner{
+    width: 90%;
+}
+    #second-content #row-1{
+    width: 60%;
+} 
+}
+@media screen and (max-width:1012px){
+    menu{
+        display: none;
+    }
+    #container ul{ 
+        margin: 7% 0 0 -3%;
+        width: 89%;
+        float: left;
+}
+    #container li{
+        display: block;
+        padding: 1% 5%;
+        border-bottom: 1px solid lightgray;
+        float: none;
+        margin: 0 0 0 -6%;
+        background-color: rgba(64,68,72,0.5);
+}
+    #search{
+        width: 84%;
+        margin: 0 auto;
+        float: left;
+        margin: 1% 0 0 1%;
+        border-bottom: 1px solid lightgray;
+}
+    #search input{
+        width: 80%;
+}
+    label{
+        display:block;
+        margin: 0% 0 0 0;
+        float: right;
+        top:1.5%;
+    }
+    #toggle:checked + menu{
+        display:block;
+    }
+    #second-content #row-3 #txt1{
+    font-size: 300%;
+}
+    #last-text{
+    font-size: 230%;
+}
+    footer article{
+    width: 90%;
+}
+}
+@media screen and (max-width:991px){
+    #container ul{ 
+        margin: 7% 0 0 -3%;
+        width: 94%;
+        float: left;
+        
+}
+    #container li{
+        display: block;
+        padding: 1% 5%;
+        border-bottom: 1px solid lightgray;
+        float: none;
+        margin: 0 0 0 -6%;
+        background-color: rgba(64,68,72,0.5);
+}
+    #search{
+        display: block;
+        width: 84%;
+        margin: 0 auto;
+        float: left;
+        margin: 1% 0 0 1%;
+        border-bottom: 1px solid lightgray;
+}
+    #search input{
+        width: 55%;
+}
+    #second-content #row-3 #txt1{
+    font-size: 250%;
+}
+    #last-text{
+    font-size: 200%;
+}
+    footer{
+    height: 80vh;
+    padding-top: 10%;
+}
+    footer article{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 70%;
+    margin-top: 0;
+        height: 100%;
+    align-self: center;
+}
+}
+@media screen and (max-width:523px){
+    #btn-sm{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    #signUP-form{
+    display: none;
+}
+    #first-inner{
+    display: grid;
+    grid-auto-columns: 100%;
+        align-items: center;
+    }
+    #intro-text{
+    display: block;
+     text-align: center;
+        margin-top: -20%;
+}
+    #search{
+        width: 94%;
+}
+    #search input{
+        width: 50%;
+}
+#second-content #row-1{
+    grid-template-columns: 1fr minmax(140px, 300px) 1fr;
+    width: 100%;
+}
+    #second-content #row-3 ul{
+    margin: 5% 18%;
+}
+    #last-text{
+    font-size: 150%;
+    margin-top: -15%;
+}
+    #mini-signUP{
+    display: block;
+        height: 20vh;
+}
+  #last-content{
+    height: 80vh;
+}  
+#mini-signUP{
+    margin-top: -50%;
+    }
+#mini-signUP input{
+    padding: 3% 3%;
+    width: 100%;
+    margin-bottom: 3%;
+}
+#mini-signUP button{
+    padding: 3% 2%;
+    width:100%;
+    text-align: center;   
+}
+  footer{
+    height: 120vh;
+}
+    footer article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    margin-top: 0;
+        height: 100%;
+    align-self: center;
+}
+}
